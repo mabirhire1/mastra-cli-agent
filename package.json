@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@mastra/core": "^1.66.0",
+    "@mastra/libsql": "^1.22.5",
+    "@mastra/memory": "^1.29.0",
+    "@openrouter/ai-sdk-provider": "^3.0.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "cli": "tsx cli.ts"
+}
+}
