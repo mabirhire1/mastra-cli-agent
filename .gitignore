@@ -4,4 +4,6 @@
 .env.*.local
 *.db
 mastra.db
+mastra.db-shm
+mastra.db-wal
 .mastra/
